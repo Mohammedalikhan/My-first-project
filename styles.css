@@ -1,0 +1,114 @@
+.left-container{
+
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 40px;
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 0px;
+  bottom: 0px;
+  border-bottom-left-radius: 10px;
+}
+.right-container{
+  padding-left: 40px;
+  background-color: #55c2c0;
+  right: 0px;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 0px;
+  border-bottom-right-radius: 10px;
+
+
+}
+
+
+.overall-container{
+  height: 80%;
+  width: 60%;
+  position: relative;
+  top: 100px;
+  left: 350px;
+  box-shadow: 5px 5px 100px gray;
+  border-radius: 10px;
+
+}
+
+.top-container{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50%;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px 10px 0px 0px ;
+  padding-left: 20px;
+}
+
+.top-container-h2{
+  color: #c0df34;
+
+}
+
+.top-container-p{
+  color: hsl(218, 22%, 67%);
+  width: 80%;
+}
+
+.right-container-p{
+  color: #d3e8e8;
+}
+
+.per-month-span{
+  font-size: 16px;
+  font-weight: 400;
+  color: #8dd9d7;
+
+}
+.dollar-29-p{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+
+.btn {
+	background-color:#c0df34;
+	border-radius:6px;
+	border:1px solid #2ab2b0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Karla', sans-serif;
+	font-size:17px;
+	padding:16px 76px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #2f6627;
+}
+.btn:hover {
+	background-color:#5cbf2a;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+body{
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  height: 600px;
+  background-color: #E5EFF5;
+}
+h1{
+  color: #2ab2b0;
+  
+}
+
+h2{
+  color: #e9f0f0;
+}
+
+p{
+  font-size: 16px;
+  color: #e9f0f0;
+}
